@@ -1,0 +1,43 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* TRADE BOX */
+
+.tradeWrap {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+}
+
+.tradeBox h5 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tradeBox input {
+    margin-bottom: 6%;
+    height: 35px;
+    border-radius: 25px;
+    border-color: #17bf8a;
+    outline: none;
+    text-align: center;
+}
+
+.submitButton button {
+    height: 35px;
+    border-radius: 25px;
+    background-color: #17bf8a;
+    border: none;
+    width: 100%;
+    margin-top: 10%;
+    color: white;
+}

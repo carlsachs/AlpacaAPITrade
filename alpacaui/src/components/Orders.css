@@ -1,0 +1,17 @@
+.ordersWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ordersWrap h1 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.open {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}

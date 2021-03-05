@@ -1,0 +1,13 @@
+.orderBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    border: 1px solid #17bf8a;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.orderBox h3 {
+    color: #17bf8a;
+}
