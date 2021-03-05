@@ -3,4 +3,28 @@
     width: 100%;
     background: rgb(125,205,255);
     background: linear-gradient(0deg, rgba(125,205,255,1) 0%, rgba(0,146,247,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-self: center;
+}
+
+.links button {
+    height: 50px;
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+    background: white;
+}
+
+.links button:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease all;
 }

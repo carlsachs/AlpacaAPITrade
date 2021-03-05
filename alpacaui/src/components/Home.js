@@ -73,7 +73,7 @@ const Home = () => {
                     <input type="text" placeholder="ex. day, gtc" required name="time_in_force" onChange={handleChange} />
 
                 </form>
-                <div>
+                <div className="submitButton">
                     <button onClick={handleSubmit}>Submit Order</button>
                 </div>
             </div>
