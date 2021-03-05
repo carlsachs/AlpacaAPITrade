@@ -33,7 +33,7 @@ const Account = () => {
     return (
         <div className="accountWrap">
             <Navigation />
-            <h1>Account Info</h1>
+            <h1 style={{color: "#17b38e"}}>Account Info</h1>
             <div className="accountBox">
                 <div className="leftBox">
                     <h3>Account Number:</h3>

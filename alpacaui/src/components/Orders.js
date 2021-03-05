@@ -3,6 +3,7 @@ import axios from "axios";
 
 //components
 import Navigation from "./Navigation";
+import OrderCard from "./OrderCard";
 
 //CSS
 import "./Orders.css";
@@ -31,9 +32,11 @@ const Orders = () => {
     return (
         <div className="ordersWrap">
             <Navigation />
-            <h1>Orders</h1>
+            <h1 style={{color: "#17b38e"}}>Orders</h1>
             <div className="open">
-                
+                {orders.map((trade) => (
+                      <OrderCard key={trade.id} trade={trade} />
+                ))}
             </div>
         </div>
     )

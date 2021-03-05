@@ -49,9 +49,7 @@ const Home = () => {
     return (
     <div className="wrap">
         <Navigation />
-        <div className="topSection">
-            <h1>Trade</h1>
-        </div>
+        <h1 style={{color: "#17b38e", display: "flex", justifyContent: "center", marginTop: "5%"}}>Trade</h1>
         <div className="tradeWrap">
             <h2>Place an Order</h2>
             <div className="tradeBox">
