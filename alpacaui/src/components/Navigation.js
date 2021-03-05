@@ -20,6 +20,9 @@ const Navigation = () => {
                 <button onClick={() => {history.push('/account')}}>
                     Account
                 </button>
+                <button onClick={() => {history.push('/orders')}}>
+                    Orders
+                </button>
             </div>
         </div>
     )
