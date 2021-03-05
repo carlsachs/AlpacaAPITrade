@@ -17,4 +17,4 @@ I then can view my orders as well as my account info.
 --React
 
 ##Resources:
---ApalcaAPI
+--AlpacaAPI
