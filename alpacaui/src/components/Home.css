@@ -14,3 +14,27 @@
     color: #1573d6;
     font-size: 3rem;
 }
+
+/* TRADE BOX */
+
+.tradeWrap {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+}
+
+.tradeBox h5 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.tradeBox input {
+    margin-bottom: 6%;
+    height: 35px;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+}
