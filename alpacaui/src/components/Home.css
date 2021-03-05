@@ -1,0 +1,16 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topSection h1 {
+    color: #1573d6;
+    font-size: 3rem;
+}

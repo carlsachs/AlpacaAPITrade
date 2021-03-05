@@ -1,0 +1,6 @@
+.navWrap {
+    height: 100px;
+    width: 100%;
+    background: rgb(125,205,255);
+    background: linear-gradient(0deg, rgba(125,205,255,1) 0%, rgba(0,146,247,1) 100%);
+}
